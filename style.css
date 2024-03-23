@@ -1,0 +1,162 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1a08080e;
+    color:gray;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+
+}
+.profile-info {
+  display: block;
+  
+}
+
+.card-photo img {
+  position: relative;
+  top: 40px;
+  margin-left: 25px;
+  height: 65px;
+  border-width: 3px;
+  border-style: outset;
+  border-color: #5a5ac7 #9f22be #9f22be #5a5ac7;
+  border-radius: 50%;
+
+}
+
+.profile-card-main {
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 376px;
+  height: 183px;
+  background-color: white;
+
+}
+
+.profile-card_main-info{
+  display: block;
+  margin-left: 14px;
+  margin-top: 30px;
+}
+
+.card-title {
+  margin-bottom: -2px;
+  font-size: 13px;
+  color:black;
+}
+
+.card-sub {
+  font-size: 12px;
+}
+.card-text {
+  display: block;
+  margin-top: 17px;
+  width: 234px;
+  font-size: 11px;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+}
+
+.profile-card-instagram_link{
+  display: block;
+  margin-top: 13px;
+  font-size: 13px;
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.6px;
+}
+
+.card-links { 
+  display: block;
+  margin-top: 21px;
+  margin-left: 52px;
+
+}
+.profile-link-telegram{
+  content:url("free-icon-telegram-5968804.png");
+  width: 45px;
+  margin-left: 3px;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px -1px ;
+
+}
+.profile-link-facebook{
+  width: 45px;
+  margin-top: 13px;
+  margin-left: 4px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  box-shadow: 0px 0px 3px -1px ;
+  content:url("free-icon-facebook-3128304.png")
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 12px;
+  margin-left: 3px;
+  width: 48px;
+  height: 25px;
+  border:none;
+  background-color:transparent;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.btn::after{
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: gray;
+  border-radius: 50%;
+  box-shadow: 
+    8px 0 gray,
+    -8px 0 gray;
+}
+.btn:hover {
+  background-color:rgba(245, 245, 245, 0.486);
+  border-radius:10%;
+}
+
+
+.post-follows-following {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  width: 376px;
+  height: 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  text-align: center;
+  font-size: 12px;
+  
+}
+
+.post-follows-following span{
+  display: block;
+  
+}
+.post-follows-following span:first-child{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  color:black;
+}
+
+.followers{
+  margin-left: 33px;
+  margin-right: 33px;
+  padding-left: 33px;
+  padding-right: 33px;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: rgb(238, 229, 229);
+}
